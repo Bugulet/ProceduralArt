@@ -83,8 +83,9 @@ public class Agent
 
     private void createAgent()
     {
-
-        parent.createAgent(x, y, 1);
+        if (Random.value > 0.5)
+            parent.createAgent(x, y, turnLeft());
+        else parent.createAgent(x, y, turnRight());
     }
 
     private int turnLeft()

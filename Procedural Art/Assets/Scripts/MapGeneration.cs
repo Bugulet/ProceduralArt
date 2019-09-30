@@ -82,13 +82,13 @@ public class MapGeneration : MonoBehaviour
                 pos.y = j * size;
                 Gizmos.color = (grid[i, j] >0) ? Color.black : Color.white;
 
-                //if (grid[i, j] == 2) Gizmos.color = Color.red;
+                if (grid[i, j] == 2) Gizmos.color = Color.red;
 
-                //if (grid[i, j] == 3) Gizmos.color = Color.blue;
+                if (grid[i, j] == 3) Gizmos.color = Color.blue;
 
-                //if (grid[i, j] == 4) Gizmos.color = Color.green;
+                if (grid[i, j] == 4) Gizmos.color = Color.green;
 
-                //if (grid[i, j] == 5) Gizmos.color = Color.yellow;
+                if (grid[i, j] == 5) Gizmos.color = Color.yellow;
 
                 Gizmos.DrawCube(pos, Vector3.one * size);
             }
