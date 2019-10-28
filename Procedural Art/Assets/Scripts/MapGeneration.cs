@@ -27,6 +27,12 @@ public class MapGeneration : MonoBehaviour
         agents.Add(new Agent(mapWidth / 2, mapHeight / 2, 2, this));
         agents.Add(new Agent(mapWidth / 2, mapHeight / 2, 3, this));
 
+
+        agents.Add(new Agent(10, 10, 1, this));
+        agents.Add(new Agent(mapWidth - 10, mapHeight - 10, 3, this));
+        agents.Add(new Agent(10, mapHeight - 10, 1, this));
+        agents.Add(new Agent(mapWidth - 10, 10, 3, this));
+
         ClearMap();
     }
 
