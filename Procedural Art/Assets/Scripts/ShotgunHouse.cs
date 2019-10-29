@@ -72,7 +72,7 @@ namespace Demo
                       param.wallStyle, param.doorStyle,
                       param.wallPattern
                   );
-                    Debug.Log("initializing doors");
+                   // Debug.Log("initializing doors");
                     
                 }
                 else
@@ -83,7 +83,7 @@ namespace Demo
                          param.wallPattern
                      );
 
-                    Debug.Log("initializing normal wall");
+                    //Debug.Log("initializing normal wall");
                 }
 
                 

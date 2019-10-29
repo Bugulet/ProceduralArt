@@ -38,6 +38,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3524854832382758425}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 99e4ca781e858c041addb9a80bbc9a7c,
+        type: 3}
+      propertyPath: m_Name
+      value: Shotgun_Wall_Door_02
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99e4ca781e858c041addb9a80bbc9a7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -93,11 +98,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 99e4ca781e858c041addb9a80bbc9a7c,
+    - target: {fileID: -4861924686910468554, guid: 99e4ca781e858c041addb9a80bbc9a7c,
         type: 3}
-      propertyPath: m_Name
-      value: Shotgun_Wall_Door_02
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b3aabe22577d8bc4e94b6c81234119f5, type: 2}
+    - target: {fileID: 856365191234717131, guid: 99e4ca781e858c041addb9a80bbc9a7c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b3aabe22577d8bc4e94b6c81234119f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e4ca781e858c041addb9a80bbc9a7c, type: 3}
 --- !u!4 &4594739768592784157 stripped
